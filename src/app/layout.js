@@ -1,5 +1,14 @@
 import { Inter } from "next/font/google";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
+
+import Home from "./Home/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +20,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <ToastContainer theme='colored'/>
+  
+        <Home/>
+        {children} 
+       
+        </body>
     </html>
   );
 }

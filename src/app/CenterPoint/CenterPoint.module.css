@@ -1,0 +1,59 @@
+.centerPoint{
+    background-image: url('/img/center.jpg');
+   
+    min-height: 400px;
+   
+
+}
+.hov{
+    background-color: rgba(73, 38, 106,.5);
+    background-image: url('/img/hov.png');
+    min-height: 400px;
+}
+
+.leftSide h2{
+    font-size: 68px;
+
+}
+.leftSide p{
+    font-size: 28px;
+    padding-left: 50px;
+}
+.rightSide{
+    direction: rtl;
+}
+.centerBtn {
+    width: 230px;
+    height: 48px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    border: none;
+    background-color: #FFA360;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 40px;
+    transition: all .5s;
+}
+.centerBtn:hover{
+    background-color: white;
+    color: rgb(55, 55, 55);
+
+}   
+.icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 20px; 
+    width: 20px;
+    padding-top: 2px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.icon i {
+    font-size: 10px;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbarBrand {
+    font-family: "Sacramento", cursive;
+    font-size: 26px !important;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+
+.navbarr {
+    -webkit-box-shadow: 1px 13px 29px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 13px 29px -24px rgba(0,0,0,0.75);
+    box-shadow: 1px 13px 29px -24px rgba(0,0,0,0.75);
+}    
+
+.navBtn {
+    background-color: #543883 !important;
+
+}
+
+.activeColor {
+    color: #543883 !important;
+}
+
+.span {
+    font-size: 22px;
+}
+.span:hover{
+    color: #543883 !important;
+}

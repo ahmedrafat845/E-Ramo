@@ -1,0 +1,83 @@
+.leftSide{
+    background-image: url('/img/Quotes.png');
+    background-repeat: no-repeat;
+    background-position: 190px 140px;
+    position: relative;
+    min-height: 675px;
+}
+.leftSideCaptio{
+    width: 439px;
+    background-color: white;
+    -webkit-box-shadow: -2px 13px 122px -64px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 122px -64px rgba(0,0,0,0.75);
+    box-shadow: -2px 13px 122px -64px rgba(0,0,0,0.75);
+    padding: 30px;
+    direction: rtl;
+    position: absolute;
+    top: 170px;
+    right: -100px;
+    border-radius: 15px;
+}
+.allRating{
+    display: flex;
+    min-height:550px;
+    align-items: end;
+}
+.stars{
+    width: 277px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    -webkit-box-shadow: 1px 5px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 11px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 11px -5px rgba(0,0,0,0.75);
+    
+}
+.stars i{
+    color: gold;
+    font-size: 25px;
+    
+}
+.rating span{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.rightSide{
+    min-height: 675px;
+    background-image: url('/img/Ellipse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.manPhoto{
+    min-height: 675px;
+    background-image: url('/img/man.png');
+    background-position: -200px ;
+
+}
+.rightCaption{
+    min-height: 108px;
+    width: 290px;
+    background-color: #262254;
+    border-radius: 15px;
+    color: white;
+    direction: rtl;
+
+}
+.slick-slide {
+    display: flex !important;
+    justify-content: center; /* Align slide content */
+}
+
+/* Ensure slides stay aligned side-by-side */
+.slick-track {
+    display: flex;
+    align-items: center; /* Vertically align the content */
+}
+
+.slick-list {
+    overflow: hidden; /* Prevent extra spacing or overflow */
+}

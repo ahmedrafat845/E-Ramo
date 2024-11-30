@@ -1,0 +1,110 @@
+.manasaP {
+    direction: rtl;
+    font-size: 18px;
+}
+
+.manasaH5 {
+    color: #262254;
+    font-size: 1.5rem;
+}
+
+.manasaIcon {
+    color: #FFEBF1;
+    font-size: 28px;
+}
+
+.ff {
+    font-size: 22px;
+    color: #543883;
+    margin-bottom: 10px;
+}
+
+.navBtn {
+    background-color: #543883 !important;
+}
+
+
+@media (max-width: 1200px) {
+    .manasaP {
+        font-size: 20px;
+    }
+
+    .manasaH5 {
+        font-size: 1.3rem;
+    }
+
+    .ff {
+        font-size: 20px;
+    }
+
+    .navBtn {
+        width: 100%;
+    } 
+    .manasaImage {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .manasaP {
+        font-size: 18px;
+    }
+
+    .manasaH5 {
+        font-size: 1.2rem;
+    }
+
+    .ff {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .manasaP {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .manasaH5 {
+        font-size: 1.1rem;
+    }
+
+    .ff {
+        font-size: 16px;
+    }
+
+    .manasaImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .navBtn {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .manasaP {
+        font-size: 14px;
+    }
+
+    .manasaH5 {
+        font-size: 1rem;
+    }
+
+    .ff {
+        font-size: 14px;
+    }
+
+    .manasaImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .navBtn {
+        padding: 14px;
+        font-size: 1rem;
+    }
+}

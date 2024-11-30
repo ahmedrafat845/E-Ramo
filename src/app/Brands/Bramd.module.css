@@ -1,0 +1,74 @@
+.allBrands {
+    background-image: url(/img/Re.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: #FDF4F9;
+    padding: 30px 0;
+}
+
+.brandH2 {
+    color: #262254;
+}
+
+.brandMain {
+    width: 100%;
+    max-width: 293px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brandMain img {
+    height: 100px;
+    width: auto;
+}
+
+.brandH4 {
+    color: #262254;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.brandP {
+    color: #262254;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 1200px) {
+    .brandMain {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .brandMain {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brandMain {
+        max-width: 200px;
+    }
+
+    .brandH4 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .brandMain {
+        max-width: 180px;
+    }
+
+    .brandH4 {
+        font-size: 0.85rem;
+    }
+
+    .brandP {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,67 @@
+.title {
+    direction: rtl;
+    text-align: center;
+}
+
+.AllCaption {
+    width: 100%;
+    -webkit-box-shadow: 5px 3px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 3px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 3px 9px -1px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+.AllCaption:hover{
+    transform: scale(1.04);
+}
+
+.img img {
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+}
+
+.caption {
+    direction: rtl;
+    padding: 15px;
+    text-align: center;
+}
+
+.captionP {
+    color: #FFA360;
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .AllCaption {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .AllCaption {
+        width: 100%;
+    }
+    .slick-slide {
+        margin-bottom: 15px;
+    }
+}
